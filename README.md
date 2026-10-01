@@ -25,3 +25,7 @@ Open `http://127.0.0.1:5173` in a browser. The dashboard expects a compatible AP
 ## Technical outline
 
 The frontend uses React, TypeScript, Vite, Leaflet, and Chart.js.
+
+## Repository scope
+
+This public repository contains the frontend only. The original backend is excluded because it bundles a large local SQLite database with raw listing records. Keeping that data outside the public repository keeps the project lightweight and avoids publishing the bundled dataset.
