@@ -2,6 +2,12 @@
 
 Airvis is a frontend dashboard for exploring Airbnb listings in Zürich. It combines a map, price and room-type charts, and straightforward filters so that users can quickly understand where listings are located and how the available options compare.
 
+## Demo video
+
+[Watch the Airvis dashboard demo](docs/airvis-demo.mp4)
+
+The recording walks through the Zürich listing map, summary statistics, and the available filtering controls.
+
 ## Dashboard walkthrough
 
 ### 1. Complete dashboard
