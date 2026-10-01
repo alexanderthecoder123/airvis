@@ -10,35 +10,35 @@ The recording walks through the Zürich listing map, summary statistics, and the
 
 ## Dashboard walkthrough
 
-### 1. Complete dashboard
+### 1. City-wide dashboard
 
-The main view brings filters, listing counts, and the interactive Zürich map into one workspace. It is designed to make location and availability patterns easy to scan before narrowing the results.
+The main view brings filters, listing counts, price charts, and the interactive Zürich map into one workspace. The heatmap makes city-wide location patterns easy to scan before narrowing the results.
 
-![Complete dashboard](docs/screenshots/dashboard.jpg)
+![City-wide dashboard](docs/screenshots/dashboard-overview.jpg)
 
-### 2. Quick actions
+### 2. Concrete listing details
 
-The header provides two practical actions: export the current page through the browser's Print-to-PDF flow or download the underlying listing data as a ZIP file.
+Selecting a marker in Kreis 4 opens a listing popup. This example shows *Geschmackvolle Stadtwohnung*, including its CHF 105 nightly price and the location, price, and value scores.
 
-![Dashboard actions](docs/screenshots/actions.jpg)
+![Concrete listing details](docs/screenshots/listing-popup.jpg)
 
-### 3. Listing overview
+### 3. District listing markers
 
-The statistics panel shows the total number of listings and updates the displayed result count as the filters change, so users can immediately see the impact of a selection.
+After selecting a district, the city heatmap is replaced by individual listing markers and the district boundary. This makes it easier to compare nearby listings directly.
 
-![Listing overview](docs/screenshots/listing-overview.jpg)
+![District listing markers](docs/screenshots/listing-markers.jpg)
 
-### 4. Filter controls
+### 4. District filters
 
-Users can focus on a type of place and set a nightly price range. Additional district, amenity, room, bed, and bathroom controls let them refine the result set further.
+Users can focus on a type of place and set a nightly price range. District, amenity, room, bed, and bathroom controls refine the result set further.
 
-![Filter controls](docs/screenshots/filter-controls.jpg)
+![District filters](docs/screenshots/district-filters.jpg)
 
-### 5. Zürich heatmap
+### 5. District statistics
 
-The city-wide map uses a heat layer to show where listings are concentrated. Selecting a district replaces this overview with individual listing markers and the selected area boundary.
+The statistics panel updates with each district and shows the price distribution, room-type mix, and short-term rental share alongside the filtered map.
 
-![Zürich heatmap](docs/screenshots/heatmap.jpg)
+![District statistics](docs/screenshots/district-statistics.jpg)
 
 ## What it shows
 
